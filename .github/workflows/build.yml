@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: github.com/nilabsent/padavan-ng
+    container: https://github.com/nilabsent/padavan-ng
     defaults: { run: { shell: bash } }
     steps:
     - uses: actions/checkout@v4
